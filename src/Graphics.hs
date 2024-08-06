@@ -1,5 +1,6 @@
 module Graphics where
 
+import Prelude hiding (foldl')
 import Data.Text (Text, foldl')
 import Data.Char (ord)
 import Data.Bits (shiftR)
